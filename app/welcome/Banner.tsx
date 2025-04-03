@@ -1,4 +1,3 @@
-import { text } from "stream/consumers";
 import { PrimaryButton } from "./Hero";
 
 export const Banner = () =>{

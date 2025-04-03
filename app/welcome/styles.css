@@ -3,23 +3,33 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
 .slider {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 100px 0;
     white-space: nowrap;    
+    position: relative;
 }
 
 .slide-track{
     display: flex;
-    animation: 10s slide infinite linear;
+    width: calc(200%); /* Duplicamos el contenido */
+    animation: slide 10s linear infinite;
 
 }
 
+.slide {
+    flex: 0 0 auto;
+    width: 150px; /* Ajusta el tamaño según necesidad */
+    padding: 10px;
+}
+
 .slide-track img{
-    height: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
 }
 
