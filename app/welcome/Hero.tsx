@@ -1,9 +1,9 @@
 
 export const Hero = () => {
     return (
-      <section className="flex gap-20  items-center mx-auto max-w-7xl min-h-[70vh] " >
+      <section className="flex gap-20  items-center mx-auto max-w-7xl min-h-[70vh] mt-50" >
 
-        <div className="w-[60%]">
+        <div className="absolute w-[686px] h-[192px] top-[308px] left-[140px]">
           
           <h1 className="text-5xl font-bold uppercase">
             Llevamos el alto rendimiento sostenible del deporte a tu{" "}
@@ -22,8 +22,10 @@ export const Hero = () => {
           </div>
           
         </div>
-        <div className="absolute w-[551px] h-[586px] top-[207px] left-[999px]">
-          <img src="https://s3-alpha-sig.figma.com/img/8087/6796/ad3d7cfdce98678017ecabf65df3461d?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lfHMg-pXwOpnhiIqxCDG-oAHCBe4ENjWBPrW3LZ1EkJ-zfA47QWNoJaiRY6C~yKrLsogktU~BOrXnhNq0p32ImptV9Isy2kqy0pQ6cgzZLVLAP415aDgFP6RAZ1TfE1Zd0gdRrJlTZE7~DSQoLnhEbE2v6B3GonPSqpwFugIYO9pJY6TDXSUcDE6f7u2l-RQcdVVjt3tInKLIzId9XI5-6qr5weny7O1b4vGOFtGIPqUd-ojj8D6z8HBGPf~ZFwwXchsAoGUbRNKrX-On6sRgGwGIlc8ysF62GSXQX4sm4xUydN567mAHL0O2rKbMgK0MZYGzDUWsSZCHVr0VJMGdw__" />
+        <div className="absolute w-[551px] h-[586px] top-[207px] left-[890px]">
+          <img className="transition-transform duration-300 ease-in-out hover:rotate-x-15 hover:-rotate-y-30"
+          src="public/img4.png" 
+          alt="" />
         </div>
 
       </section>

@@ -1,7 +1,7 @@
 import { Banner } from "./Banner";
-import  Carrusell  from "./Carrusell";
 import { Hero } from "./Hero";
 import { Secccion1 } from "./Seccion1";
+import { Carrusell } from "./Carrusell";
 
 export function Welcome() {
   return (
