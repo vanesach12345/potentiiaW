@@ -3,7 +3,7 @@ import { PrimaryButton } from "./Hero";
 
 export const Banner = () =>{
     return(
-        <section className="flex gap-20 items-center mx-auto max-w-7xl min-h-[20vh]">
+        <section className="flex  gap-20 items-center mx-auto max-w-7xl min-h-[20vh]">
             
             <div className="w-[179px] ">
                 <img 
@@ -12,19 +12,14 @@ export const Banner = () =>{
                 />
             </div>    
 
-            <div className="flex gap-[40px] text-black font-semibold text-[20px]">
-                <p>Programas Corporativos</p>  
+            <div className="flex gap-4 text-right items-center justfy-end text-black font-semibold text-[20px]">
+                <p className="">Programas Corporativos</p>  
                 <p>Programas Deportivos</p>  
                 <p>Modelo Potentiia</p>
                 <p>Piia Entrenadora Digital</p>
-            </div> 
 
-            
-            
-            <PrimaryButton text="Contáctonos"/>
-           
-           
-
+                <PrimaryButton text="Contáctonos"/>
+            </div>
         </section>
 
     );
