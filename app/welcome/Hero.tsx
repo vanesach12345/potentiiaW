@@ -1,3 +1,4 @@
+import { text } from "stream/consumers";
 
 export const Hero = () => {
     return (
@@ -17,11 +18,12 @@ export const Hero = () => {
           </p>
           <div className="flex gap-6">
             <PrimaryButton text="Explora nuestros programas"/>
-            <PrimaryButton1 />
+            <PrimaryButton1 text="Contáctanos" />
             
           </div>
           
         </div>
+        
         <div className="absolute w-[551px] h-[586px] top-[207px] left-[890px]">
           <img className="transition-transform duration-300 ease-in-out hover:rotate-x-15 hover:-rotate-y-30"
           src="public/img4.png" 
@@ -47,10 +49,11 @@ export const Hero = () => {
   };
 
 
-  export const PrimaryButton1 = () => {
+  export const PrimaryButton1: React.FC<PrimaryButtonProps> = ({ text }) => {
     return (
       <button className="border-2 border-[#FF4081] text-[#FF4081] h-12 px-6 rounded-full">
-        Contáctanos
+        {text}
       </button>
+
     );
   };

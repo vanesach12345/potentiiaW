@@ -1,4 +1,3 @@
-
 export const CardSeccion3 = () =>{
     return(
         <section className="flex flex-col items-center p-30">
