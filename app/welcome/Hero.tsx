@@ -1,4 +1,3 @@
-import { text } from "stream/consumers";
 
 export const Hero = () => {
     return (

@@ -28,7 +28,7 @@ export const Seccion8 = () =>{
       <div className="relative">
         <img
           className="max-w-sm w-full"
-          src="public/img4.png"
+          src="public/Imagen7.png"
           alt="Persona con íconos"
         />
 
