@@ -105,7 +105,6 @@ export const CarrusellSeccion7 = () =>{
             </div>
           </div>
 
-          {/* Puedes agregar más tarjetas así */}
         </div>
       </div>
 
@@ -203,7 +202,6 @@ export const CarrusellSeccion7 = () =>{
             </div>
           </div>
 
-          {/* Puedes agregar más tarjetas así */}
         </div>
       </div>
       

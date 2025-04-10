@@ -16,14 +16,14 @@
 
 .slide-track{
     display: flex;
-    width: calc(200%); /* Duplicamos el contenido */
+    width: calc(200%); 
     animation: slide 10s linear infinite;
 
 }
 
 .slide {
     flex: 0 0 auto;
-    width: 150px; /* Ajusta el tamaño según necesidad */
+    width: 150px; 
     padding: 10px;
 }
 
