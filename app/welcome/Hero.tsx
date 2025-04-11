@@ -1,35 +1,33 @@
 
 export const Hero = () => {
     return (
-      <section className="flex gap-20  items-center mx-auto max-w-7xl min-h-[70vh] mt-50" >
-
-        <div className="absolute w-[686px] h-[192px] top-[308px] left-[140px]">
-          
-          <h1 className="text-5xl font-bold uppercase">
-            Llevamos el alto rendimiento sostenible del deporte a tu{" "}
-            <span className="text-[#E8BD3C]"> vida</span>
-          </h1>
-          <p className="mt-6 text-[20px] mb-10">
-            Somos la primera empresa en democratizar el verdadero superpoder del
-            siglo XXI. La optimización de la salud, el bienestar y el alto
-            rendimiento humano a través de programas de entrenamiento prácticos,
-            sostenibles y escalables.
-          </p>
-          <div className="flex gap-6">
-            <PrimaryButton text="Explora nuestros programas"/>
-            <PrimaryButton1 text="Contáctanos" />
-            
-          </div>
-          
+      <section className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 py-12 gap-10 min-h-[70vh]">
+      
+      <div className="w-full lg:w-1/2">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase leading-tight text-center lg:text-left">
+          Llevamos el alto rendimiento sostenible del deporte a tu{" "}
+          <span className="text-[#E8BD3C]">vida</span>
+        </h1>
+        <p className="mt-6 text-base md:text-lg mb-8 text-center lg:text-left">
+          Somos la primera empresa en democratizar el verdadero superpoder del
+          siglo XXI. La optimización de la salud, el bienestar y el alto
+          rendimiento humano a través de programas de entrenamiento prácticos,
+          sostenibles y escalables.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <PrimaryButton text="Explora nuestros programas" />
+          <PrimaryButton1 text="Contáctanos" />
         </div>
-        
-        <div className="absolute w-[551px] h-[586px] top-[207px] left-[890px]">
-          <img className="transition-transform duration-300 ease-in-out hover:rotate-x-15 hover:-rotate-y-30"
-          src="public/img4.png" 
-          alt="" />
-        </div>
+      </div>
 
-      </section>
+      <div className="w-full lg:w-1/2 flex justify-center">
+        <img
+          className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] transition-transform duration-300 ease-in-out hover:rotate-3 hover:scale-105"
+          src="public/img4.png"
+          alt="Imagen hero"
+        />
+      </div>
+    </section>
     );
 
   };

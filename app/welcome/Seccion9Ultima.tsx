@@ -2,20 +2,20 @@ import { PrimaryButton } from "./Hero";
 
 export const Seccion9Ultima = () => {
     return (
-        <section className="bg-[#123337] text-white py-10 px-6 md:px-20">
-            <div className="flex flex-col md:flex-row justify-between gap-10">
+        <section className="bg-[#123337] text-white py-12 px-6 md:px-12 lg:px-20">
+            <div className="flex flex-col lg:flex-row flex-wrap gap-10 justify-between">
                 
-                <div>
+                <div className="flex-shrink-0">
                     <img
-                        className="w-[179px]"
+                        className="w-32 md:w-40"
                         src="https://s3-alpha-sig.figma.com/img/1ddc/8149/c014a04f5fb457b756d6bc13fef172ed?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GS3hG3ho9pgpMagyaCU3Hm1Yp7~QzUQ59g7tUeNaRHxU4EoIoe9yZAs6b6dvrnAF-5P-AS3CBy8yWqM9bMRaUiUHlZbQMYEl1BGSg0QSUxyZfpaY84db9ZcV-F6kwnMSwDr18DMRUPqpGrFhJ5~SenZoxy-bqFNTdK9A3NWBwDKsjykavzMGIJMeEUF0wpUwwkMhemw5XIB64CgJZC4PKKTRU19rs5uiUndeivsaWFB6GPDh3-877lgPqKoDXqr0SHENKmsM-eEmPlKw2k4YJGKOYmKCb3g02VPfB7j4eBUwMammSrOababGg4sX8okntKbYLPhPgwAFvvBs36Pg3Q__"
                         alt="Potentiia Logo"
                     />
                 </div>
 
                 <div>
-                    <p className="text-gray-400 mb-2">Potentiia</p>
-                    <ul className="space-y-1">
+                    <p className="text-gray-400 font-semibold mb-2">Potentiia</p>
+                    <ul className="space-y-1 text-sm">
                         <li>Programas</li>
                         <li>PiiA</li>
                         <li>Preguntas frecuentes</li>
@@ -25,14 +25,14 @@ export const Seccion9Ultima = () => {
                 </div>
 
                 <div>
-                    <p className="text-gray-400 mb-2">Centro de ayuda</p>
-                    <ul className="space-y-1">
+                    <p className="text-gray-400 font-semibold mb-2">Centro de ayuda</p>
+                    <ul className="space-y-1 text-sm">
                         <li>hola@potentiia.com</li>
                         <li>+52 737 443 44 44</li>
                     </ul>
                 </div>
 
-                <div className="flex-1 max-w-sm">
+                <div className="w-full sm:max-w-md">
                     <p className="text-gray-400 mb-3">
                         Suscríbete a nuestro newsletter para recibir información sobre nuestros programas
                     </p>

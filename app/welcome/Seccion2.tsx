@@ -90,8 +90,7 @@ export const Seccion2 = () => {
           
             <div className="w-[50%] flex flex-col img-justify-items-end">
                 <h2 className="text-2xl font-bold mb-6 text-center">ALTO RENDIMIENTO EMPRESARIAL</h2>
-                <img src="public/img5.png" 
-                className="w-952 max-w-[400px] h-auto"  alt="Mujer empresaria" />
+                
               </div>  
             </div> 
         <div className="mt-6">
