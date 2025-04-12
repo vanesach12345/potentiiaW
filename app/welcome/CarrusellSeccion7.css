@@ -1,16 +1,33 @@
-.carousel-container {
+.carousel-container-1 {
   overflow: hidden;
   position: relative;
 }
 
-.carousel-track {
+.carousel-track-1 {
   display: flex;
   gap: 1rem;
   width: fit-content;
   animation: scrollLoop 40s linear infinite;
 }
 
-.carousel-container:hover .carousel-track {
+
+.carousel-container-2 {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track-2 {
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  animation: scrollLoop 40s linear infinite;
+}
+
+.carousel-container-1:hover .carousel-track-1 {
+  animation-play-state: paused;
+}
+
+.carousel-container-2:hover .carousel-track-2 {
   animation-play-state: paused;
 }
 

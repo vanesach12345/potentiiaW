@@ -3,9 +3,9 @@ import { PrimaryButton1 } from "./Hero";
 
 export const Seccion8 = () =>{
     return(
-      <section className="flex flex-col md:flex-row items-center justify-between px-6 py-20 md:px-20 md:py-40 gap-10">
+      <section className="flex flex-col md:flex-row items-center justify-between px-6 py-20 md:px-20 md:py-40 gap-10 x-w-full">
       <div className="w-full md:max-w-2xl">
-        <h2 className="text-2xl md:text-3xl font-extrabold mb-6 leading-snug">
+        <h2 className="text-2xl md:text-3xl bg:text-lg font-extrabold mb-6 leading-snug">
           ESTAMOS CAMBIANDO LA FORMA EN QUE <br />
           TRABAJAN LOS FUTUROS LÍDERES HOY
         </h2>
